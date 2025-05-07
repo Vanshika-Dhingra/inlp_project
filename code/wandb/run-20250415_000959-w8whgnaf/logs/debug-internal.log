@@ -1,0 +1,223 @@
+2025-04-15 00:09:59,553 INFO    StreamThr :47302 [internal.py:wandb_internal():86] W&B internal server running at pid: 47302, started at: 2025-04-15 00:09:59.534210
+2025-04-15 00:09:59,557 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: status
+2025-04-15 00:09:59,580 INFO    WriterThread:47302 [datastore.py:open_for_write():85] open: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/run-w8whgnaf.wandb
+2025-04-15 00:09:59,580 DEBUG   SenderThread:47302 [sender.py:send():380] send: header
+2025-04-15 00:09:59,624 DEBUG   SenderThread:47302 [sender.py:send():380] send: run
+2025-04-15 00:10:00,488 INFO    SenderThread:47302 [dir_watcher.py:__init__():211] watching files in: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files
+2025-04-15 00:10:00,488 INFO    SenderThread:47302 [sender.py:_start_run_threads():1122] run started: w8whgnaf with start time 1744655999.50417
+2025-04-15 00:10:00,497 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: check_version
+2025-04-15 00:10:00,497 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: check_version
+2025-04-15 00:10:00,679 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: run_start
+2025-04-15 00:10:00,691 DEBUG   HandlerThread:47302 [system_info.py:__init__():32] System info init
+2025-04-15 00:10:00,692 DEBUG   HandlerThread:47302 [system_info.py:__init__():47] System info init done
+2025-04-15 00:10:00,692 INFO    HandlerThread:47302 [system_monitor.py:start():181] Starting system monitor
+2025-04-15 00:10:00,692 INFO    SystemMonitor:47302 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2025-04-15 00:10:00,692 INFO    HandlerThread:47302 [system_monitor.py:probe():201] Collecting system info
+2025-04-15 00:10:00,693 INFO    SystemMonitor:47302 [interfaces.py:start():190] Started cpu monitoring
+2025-04-15 00:10:00,694 DEBUG   HandlerThread:47302 [system_info.py:probe():196] Probing system
+2025-04-15 00:10:00,694 INFO    SystemMonitor:47302 [interfaces.py:start():190] Started disk monitoring
+2025-04-15 00:10:00,696 INFO    SystemMonitor:47302 [interfaces.py:start():190] Started gpuapple monitoring
+2025-04-15 00:10:00,698 INFO    SystemMonitor:47302 [interfaces.py:start():190] Started memory monitoring
+2025-04-15 00:10:00,699 INFO    SystemMonitor:47302 [interfaces.py:start():190] Started network monitoring
+2025-04-15 00:10:00,704 DEBUG   HandlerThread:47302 [system_info.py:_probe_git():181] Probing git
+2025-04-15 00:10:00,736 DEBUG   HandlerThread:47302 [system_info.py:_probe_git():189] Probing git done
+2025-04-15 00:10:00,736 DEBUG   HandlerThread:47302 [system_info.py:probe():244] Probing system done
+2025-04-15 00:10:00,736 DEBUG   HandlerThread:47302 [system_monitor.py:probe():210] {'os': 'macOS-14.4.1-arm64-arm-64bit', 'python': '3.11.0', 'heartbeatAt': '2025-04-14T18:40:00.694460', 'startedAt': '2025-04-14T18:39:59.448386', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/Vanshika-Dhingra/inlp_project.git', 'commit': '100f3eb5117efa415c8be64ecf88eaac4472ba2e'}, 'email': 'vanshika.dhingra@students.iiit.ac.in', 'root': '/Users/vanshikadhingra/Downloads/inlp_project_pruning', 'host': 'Vanshikas-MacBook-Air.local', 'username': 'vanshikadhingra', 'executable': '/opt/homebrew/Caskroom/miniforge/base/envs/ml/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 228.27386474609375, 'used': 227.6827735900879}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2025-04-15 00:10:00,737 INFO    HandlerThread:47302 [system_monitor.py:probe():211] Finished collecting system info
+2025-04-15 00:10:00,737 INFO    HandlerThread:47302 [system_monitor.py:probe():214] Publishing system info
+2025-04-15 00:10:00,737 DEBUG   HandlerThread:47302 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2025-04-15 00:10:00,737 DEBUG   HandlerThread:47302 [system_info.py:_save_pip():68] Saving pip packages done
+2025-04-15 00:10:00,738 DEBUG   HandlerThread:47302 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2025-04-15 00:10:01,494 INFO    Thread-12 :47302 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/requirements.txt
+2025-04-15 00:10:01,495 INFO    Thread-12 :47302 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/conda-environment.yaml
+2025-04-15 00:10:11,789 DEBUG   HandlerThread:47302 [system_info.py:_save_conda():87] Saving conda packages done
+2025-04-15 00:10:11,790 INFO    HandlerThread:47302 [system_monitor.py:probe():216] Finished publishing system info
+2025-04-15 00:10:11,801 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: status_report
+2025-04-15 00:10:11,801 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: keepalive
+2025-04-15 00:10:11,801 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: status_report
+2025-04-15 00:10:11,801 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: keepalive
+2025-04-15 00:10:11,802 DEBUG   SenderThread:47302 [sender.py:send():380] send: files
+2025-04-15 00:10:11,802 INFO    SenderThread:47302 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2025-04-15 00:10:11,909 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: internal_messages
+2025-04-15 00:10:11,918 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: stop_status
+2025-04-15 00:10:11,922 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: stop_status
+2025-04-15 00:10:12,294 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: pause
+2025-04-15 00:10:12,294 INFO    HandlerThread:47302 [handler.py:handle_request_pause():703] stopping system metrics thread
+2025-04-15 00:10:12,294 INFO    HandlerThread:47302 [system_monitor.py:finish():190] Stopping system monitor
+2025-04-15 00:10:12,294 DEBUG   SystemMonitor:47302 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2025-04-15 00:10:12,294 DEBUG   SystemMonitor:47302 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2025-04-15 00:10:12,294 DEBUG   SystemMonitor:47302 [system_monitor.py:_start():170] Publishing last batch of metrics
+2025-04-15 00:10:12,295 INFO    HandlerThread:47302 [interfaces.py:finish():202] Joined cpu monitor
+2025-04-15 00:10:12,295 INFO    HandlerThread:47302 [interfaces.py:finish():202] Joined disk monitor
+2025-04-15 00:10:12,366 INFO    HandlerThread:47302 [interfaces.py:finish():202] Joined gpuapple monitor
+2025-04-15 00:10:12,366 INFO    HandlerThread:47302 [interfaces.py:finish():202] Joined memory monitor
+2025-04-15 00:10:12,366 INFO    HandlerThread:47302 [interfaces.py:finish():202] Joined network monitor
+2025-04-15 00:10:12,381 DEBUG   SenderThread:47302 [sender.py:send():380] send: telemetry
+2025-04-15 00:10:12,381 DEBUG   SenderThread:47302 [sender.py:send():380] send: telemetry
+2025-04-15 00:10:12,381 DEBUG   SenderThread:47302 [sender.py:send():380] send: config
+2025-04-15 00:10:12,381 DEBUG   SenderThread:47302 [sender.py:send():380] send: config
+2025-04-15 00:10:12,383 DEBUG   SenderThread:47302 [sender.py:send():380] send: telemetry
+2025-04-15 00:10:12,383 DEBUG   SenderThread:47302 [sender.py:send():380] send: stats
+2025-04-15 00:10:12,538 INFO    Thread-12 :47302 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/conda-environment.yaml
+2025-04-15 00:10:12,538 INFO    Thread-12 :47302 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/wandb-metadata.json
+2025-04-15 00:10:12,539 INFO    Thread-12 :47302 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/output.log
+2025-04-15 00:10:12,984 INFO    wandb-upload_0:47302 [upload_job.py:push():131] Uploaded file /var/folders/z5/dqjscmcj1nvb61q170zbpyy80000gn/T/tmpkd9ud7q1wandb/ag74z7cd-wandb-metadata.json
+2025-04-15 00:10:14,549 INFO    Thread-12 :47302 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/output.log
+2025-04-15 00:10:15,395 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: status_report
+2025-04-15 00:10:20,412 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: status_report
+2025-04-15 00:10:25,427 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: status_report
+2025-04-15 00:10:26,915 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: stop_status
+2025-04-15 00:10:26,915 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: internal_messages
+2025-04-15 00:10:26,916 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: stop_status
+2025-04-15 00:10:31,259 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: status_report
+2025-04-15 00:10:31,627 INFO    Thread-12 :47302 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/config.yaml
+2025-04-15 00:10:34,774 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: resume
+2025-04-15 00:10:34,774 INFO    HandlerThread:47302 [handler.py:handle_request_resume():694] starting system metrics thread
+2025-04-15 00:10:34,774 INFO    HandlerThread:47302 [system_monitor.py:start():181] Starting system monitor
+2025-04-15 00:10:34,775 INFO    SystemMonitor:47302 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2025-04-15 00:10:34,775 INFO    SystemMonitor:47302 [interfaces.py:start():190] Started cpu monitoring
+2025-04-15 00:10:34,776 INFO    SystemMonitor:47302 [interfaces.py:start():190] Started disk monitoring
+2025-04-15 00:10:34,776 INFO    SystemMonitor:47302 [interfaces.py:start():190] Started gpuapple monitoring
+2025-04-15 00:10:34,780 INFO    SystemMonitor:47302 [interfaces.py:start():190] Started memory monitoring
+2025-04-15 00:10:34,781 INFO    SystemMonitor:47302 [interfaces.py:start():190] Started network monitoring
+2025-04-15 00:10:37,405 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: status_report
+2025-04-15 00:10:38,467 DEBUG   SenderThread:47302 [sender.py:send():380] send: telemetry
+2025-04-15 00:10:38,468 DEBUG   SenderThread:47302 [sender.py:send():380] send: exit
+2025-04-15 00:10:38,468 INFO    SenderThread:47302 [sender.py:send_exit():585] handling exit code: 0
+2025-04-15 00:10:38,469 INFO    SenderThread:47302 [sender.py:send_exit():587] handling runtime: 15
+2025-04-15 00:10:38,469 INFO    SenderThread:47302 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2025-04-15 00:10:38,470 INFO    SenderThread:47302 [sender.py:send_exit():593] send defer
+2025-04-15 00:10:38,471 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:38,471 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 0
+2025-04-15 00:10:38,471 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:38,471 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-04-15 00:10:38,472 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 1
+2025-04-15 00:10:38,472 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:38,472 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 1
+2025-04-15 00:10:38,472 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:38,472 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-04-15 00:10:38,472 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 2
+2025-04-15 00:10:38,472 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:38,472 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 2
+2025-04-15 00:10:38,472 INFO    HandlerThread:47302 [system_monitor.py:finish():190] Stopping system monitor
+2025-04-15 00:10:38,472 DEBUG   SystemMonitor:47302 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2025-04-15 00:10:38,473 DEBUG   SystemMonitor:47302 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2025-04-15 00:10:38,473 INFO    HandlerThread:47302 [interfaces.py:finish():202] Joined cpu monitor
+2025-04-15 00:10:38,473 DEBUG   SystemMonitor:47302 [system_monitor.py:_start():170] Publishing last batch of metrics
+2025-04-15 00:10:38,473 INFO    HandlerThread:47302 [interfaces.py:finish():202] Joined disk monitor
+2025-04-15 00:10:38,473 INFO    HandlerThread:47302 [interfaces.py:finish():202] Joined gpuapple monitor
+2025-04-15 00:10:38,473 INFO    HandlerThread:47302 [interfaces.py:finish():202] Joined memory monitor
+2025-04-15 00:10:38,473 INFO    HandlerThread:47302 [interfaces.py:finish():202] Joined network monitor
+2025-04-15 00:10:38,474 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:38,474 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-04-15 00:10:38,474 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 3
+2025-04-15 00:10:38,474 DEBUG   SenderThread:47302 [sender.py:send():380] send: stats
+2025-04-15 00:10:38,474 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:38,474 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 3
+2025-04-15 00:10:38,474 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:38,474 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-04-15 00:10:38,474 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 4
+2025-04-15 00:10:38,474 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:38,474 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 4
+2025-04-15 00:10:38,474 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:38,474 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-04-15 00:10:38,474 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 5
+2025-04-15 00:10:38,474 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:38,474 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 5
+2025-04-15 00:10:38,475 DEBUG   SenderThread:47302 [sender.py:send():380] send: summary
+2025-04-15 00:10:38,475 INFO    SenderThread:47302 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2025-04-15 00:10:38,475 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:38,475 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-04-15 00:10:38,475 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 6
+2025-04-15 00:10:38,475 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:38,475 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 6
+2025-04-15 00:10:38,475 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:38,475 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-04-15 00:10:38,478 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: status_report
+2025-04-15 00:10:38,660 INFO    Thread-12 :47302 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/output.log
+2025-04-15 00:10:38,660 INFO    Thread-12 :47302 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/wandb-summary.json
+2025-04-15 00:10:38,774 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 7
+2025-04-15 00:10:38,774 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:38,774 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 7
+2025-04-15 00:10:38,774 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:38,774 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-04-15 00:10:39,475 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: poll_exit
+2025-04-15 00:10:39,666 INFO    Thread-12 :47302 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/config.yaml
+2025-04-15 00:10:40,450 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 8
+2025-04-15 00:10:40,451 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: poll_exit
+2025-04-15 00:10:40,451 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:40,451 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 8
+2025-04-15 00:10:40,452 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:40,452 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-04-15 00:10:40,452 INFO    SenderThread:47302 [job_builder.py:build():281] Attempting to build job artifact
+2025-04-15 00:10:40,453 INFO    SenderThread:47302 [job_builder.py:_get_source_type():393] is repo sourced job
+2025-04-15 00:10:40,453 INFO    SenderThread:47302 [job_builder.py:_get_program_relpath():411] run is notebook based run
+2025-04-15 00:10:40,453 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 9
+2025-04-15 00:10:40,453 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:40,454 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 9
+2025-04-15 00:10:40,454 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:40,454 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-04-15 00:10:40,454 INFO    SenderThread:47302 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-04-15 00:10:40,480 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: poll_exit
+2025-04-15 00:10:40,670 INFO    Thread-12 :47302 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/output.log
+2025-04-15 00:10:40,670 INFO    SenderThread:47302 [dir_watcher.py:finish():388] scan: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files
+2025-04-15 00:10:40,670 INFO    SenderThread:47302 [dir_watcher.py:finish():402] scan save: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/requirements.txt requirements.txt
+2025-04-15 00:10:40,670 INFO    SenderThread:47302 [dir_watcher.py:finish():402] scan save: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/output.log output.log
+2025-04-15 00:10:40,672 INFO    SenderThread:47302 [dir_watcher.py:finish():402] scan save: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/config.yaml config.yaml
+2025-04-15 00:10:40,672 INFO    SenderThread:47302 [dir_watcher.py:finish():402] scan save: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/wandb-summary.json wandb-summary.json
+2025-04-15 00:10:40,674 INFO    SenderThread:47302 [dir_watcher.py:finish():402] scan save: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/conda-environment.yaml conda-environment.yaml
+2025-04-15 00:10:40,676 INFO    SenderThread:47302 [dir_watcher.py:finish():402] scan save: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/wandb-metadata.json wandb-metadata.json
+2025-04-15 00:10:40,678 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 10
+2025-04-15 00:10:40,678 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: poll_exit
+2025-04-15 00:10:40,678 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:40,678 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 10
+2025-04-15 00:10:40,678 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:40,678 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-04-15 00:10:40,678 INFO    SenderThread:47302 [file_pusher.py:finish():175] shutting down file pusher
+2025-04-15 00:10:41,363 INFO    wandb-upload_1:47302 [upload_job.py:push():131] Uploaded file /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/output.log
+2025-04-15 00:10:41,488 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: poll_exit
+2025-04-15 00:10:41,488 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: poll_exit
+2025-04-15 00:10:41,540 INFO    wandb-upload_0:47302 [upload_job.py:push():131] Uploaded file /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/requirements.txt
+2025-04-15 00:10:41,606 INFO    wandb-upload_3:47302 [upload_job.py:push():131] Uploaded file /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/wandb-summary.json
+2025-04-15 00:10:41,643 INFO    wandb-upload_2:47302 [upload_job.py:push():131] Uploaded file /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/config.yaml
+2025-04-15 00:10:41,693 INFO    wandb-upload_4:47302 [upload_job.py:push():131] Uploaded file /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/files/conda-environment.yaml
+2025-04-15 00:10:41,898 INFO    Thread-11 (_thread_body):47302 [sender.py:transition_state():613] send defer: 11
+2025-04-15 00:10:41,899 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:41,899 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 11
+2025-04-15 00:10:41,899 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:41,899 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-04-15 00:10:41,899 INFO    SenderThread:47302 [file_pusher.py:join():181] waiting for file pusher
+2025-04-15 00:10:41,899 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 12
+2025-04-15 00:10:41,899 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:41,899 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 12
+2025-04-15 00:10:41,899 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:41,899 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-04-15 00:10:41,900 INFO    SenderThread:47302 [file_stream.py:finish():595] file stream finish called
+2025-04-15 00:10:42,197 INFO    SenderThread:47302 [file_stream.py:finish():599] file stream finish is done
+2025-04-15 00:10:42,197 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 13
+2025-04-15 00:10:42,197 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:42,198 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 13
+2025-04-15 00:10:42,198 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:42,198 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-04-15 00:10:42,198 INFO    SenderThread:47302 [sender.py:transition_state():613] send defer: 14
+2025-04-15 00:10:42,198 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: defer
+2025-04-15 00:10:42,198 INFO    HandlerThread:47302 [handler.py:handle_request_defer():170] handle defer: 14
+2025-04-15 00:10:42,198 DEBUG   SenderThread:47302 [sender.py:send():380] send: final
+2025-04-15 00:10:42,198 DEBUG   SenderThread:47302 [sender.py:send():380] send: footer
+2025-04-15 00:10:42,198 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: defer
+2025-04-15 00:10:42,199 INFO    SenderThread:47302 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-04-15 00:10:42,199 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: internal_messages
+2025-04-15 00:10:42,200 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: poll_exit
+2025-04-15 00:10:42,200 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: server_info
+2025-04-15 00:10:42,200 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: get_summary
+2025-04-15 00:10:42,201 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: sampled_history
+2025-04-15 00:10:42,201 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: poll_exit
+2025-04-15 00:10:42,201 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: job_info
+2025-04-15 00:10:42,201 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: server_info
+2025-04-15 00:10:42,508 DEBUG   SenderThread:47302 [sender.py:send_request():407] send_request: job_info
+2025-04-15 00:10:42,509 DEBUG   HandlerThread:47302 [handler.py:handle_request():144] handle_request: shutdown
+2025-04-15 00:10:42,509 INFO    HandlerThread:47302 [handler.py:finish():844] shutting down handler
+2025-04-15 00:10:43,206 INFO    WriterThread:47302 [datastore.py:close():294] close: /Users/vanshikadhingra/Downloads/inlp_project_pruning/code/wandb/run-20250415_000959-w8whgnaf/run-w8whgnaf.wandb
+2025-04-15 00:10:43,510 INFO    SenderThread:47302 [sender.py:finish():1534] shutting down sender
+2025-04-15 00:10:43,510 INFO    SenderThread:47302 [file_pusher.py:finish():175] shutting down file pusher
+2025-04-15 00:10:43,511 INFO    SenderThread:47302 [file_pusher.py:join():181] waiting for file pusher

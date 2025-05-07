@@ -1,0 +1,3 @@
+load test source sentences from [./data/test_src.txt]
+load test target sentences from [./data/test_tgt.txt]
+save model parameters to [./work_dir/model.bin.pruned]

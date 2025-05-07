@@ -1,0 +1,36 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "3.11.0",
+    "heartbeatAt": "2025-04-14T18:40:45.479145",
+    "startedAt": "2025-04-14T18:40:38.458469",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/Vanshika-Dhingra/inlp_project.git",
+        "commit": "100f3eb5117efa415c8be64ecf88eaac4472ba2e"
+    },
+    "email": "vanshika.dhingra@students.iiit.ac.in",
+    "root": "/Users/vanshikadhingra/Downloads/inlp_project_pruning",
+    "host": "Vanshikas-MacBook-Air.local",
+    "username": "vanshikadhingra",
+    "executable": "/opt/homebrew/Caskroom/miniforge/base/envs/ml/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 227.58864974975586
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

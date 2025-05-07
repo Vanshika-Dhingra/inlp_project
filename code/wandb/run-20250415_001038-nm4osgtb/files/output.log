@@ -1,0 +1,28 @@
+load test source sentences from [./data/test_src.txt]
+load test target sentences from [./data/test_target.txt]
+load model from ./work_dir/model.bin.pruned
+--- Logging error ---
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml/lib/python3.11/logging/__init__.py", line 1114, in emit
+    self.flush()
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml/lib/python3.11/logging/__init__.py", line 1094, in flush
+    self.stream.flush()
+OSError: [Errno 28] No space left on device
+Call stack:
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml/lib/python3.11/threading.py", line 995, in _bootstrap
+    self._bootstrap_inner()
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml/lib/python3.11/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml/lib/python3.11/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml/lib/python3.11/site-packages/wandb/sdk/internal/internal.py", line 279, in _process
+    self._hm.handle(record)
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml/lib/python3.11/site-packages/wandb/sdk/internal/handler.py", line 136, in handle
+    handler(record)
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml/lib/python3.11/site-packages/wandb/sdk/internal/handler.py", line 144, in handle_request
+    logger.debug(f"handle_request: {request_type}")
+Message: 'handle_request: keepalive'
+Arguments: ()
+--- Logging error ---
